@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ToDo</title>
+	<link rel="shortcut icon" href="./img/favicon.svg" type="image/svg">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="card">
+			<div class="card-header">
+				<h4 class="card-title">To Do App (by &nbsp<a href="https://github.com/TataRozhdez" target="_blank"> Tata Zhukova</a>)</h4>
+			</div>
+			<div class="card-body">
+				<div class="input-group mb-3" id='actionPanel1'>
+					<div class="input-group-prepend">
+						<span id="selectAllAction">
+							<button class="btn btn-info" id="selectAll" type="button">Select all</button>
+						</span>
+					</div>
+					<input type="text" class="form-control" id='input'>
+				</div>
+				<div id='actionPanel2'>
+					<div class="btn-group btn-block">
+						<button type='button' class='btn btn-success' id="doneAction">Done</button>
+						<button type='button' class='btn btn-info' id="restoreAction">Restore</button>
+						<button type='button' class='btn btn-danger' id="removeAction">Remove</button>
+					</div>
+				</div>
+			</div>
+      <ul class="list-group" id='list'>
+        <!-- <li class="list-group-item  d-flex justify-content-between align-items-center mb-1">
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+					</div>
+					<div class="btn-group btn-group-toggle btn-sm" data-toggle="buttons">
+            <button type="button" class="btn btn-outline-primary btn-sm">Done</button>
+            <button type="button" class="btn btn-outline-danger btn-sm">Remove</button>
+					</div>
+        </li> -->
+      </ul>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</body>

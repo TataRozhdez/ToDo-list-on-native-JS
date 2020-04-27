@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Montserrat Subrayada';
+  src: url(./font/MontserratSubrayada-Bold.ttf),
+      url(./font/MontserratSubrayada-Regular.ttf),
+      url(./font/MontserratAlternates-ExtraLight.ttf),
+      url(./font/MontserratAlternates-Light.ttf),
+      url(./font/MontserratAlternates-Regular.ttf),
+      url(./font/MontserratAlternates-Thin.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+}
+h4 {
+  font-family: 'Montserrat Subrayada';
+}
+body {
+  background-image: url(./img/Background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.todoDone {
+	text-decoration: line-through;
+	font-style: italic;
+	color: gray;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.5)
+}
+.form-group {
+  margin: 0;
+}
